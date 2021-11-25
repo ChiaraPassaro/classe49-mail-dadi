@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dado {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+}
+
+.pallino {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.lt {
+  top: 2px;
+  left: 2px;
+}
+.rt {
+  top: 2px;
+  right: 2px;
+}
+.ct {
+  top: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.lc {
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+}
+.rc {
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+}
+.cc {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lb {
+  bottom: 2px;
+  left: 2px;
+}
+.rb {
+  bottom: 2px;  
+  right: 2px;
+}
+.cb {
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
